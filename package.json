@@ -1,0 +1,13 @@
+{
+  "name": "gateway-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Harman",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/stitch": "^6.0.10",
+    "@graphql-tools/wrap": "^6.0.10",
+    "apollo-server": "^2.15.0",
+    "cross-fetch": "^3.0.5"
+  }
+}
