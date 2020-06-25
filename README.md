@@ -9,15 +9,17 @@ yarn install
 
 Run each of the following lines in their own seperate terminal tab.
 ```bash
-node server1.js # run in tab 1
-node server2.js # run in tab 2
-node server3.js # run in tab 3
-node gateway.js # run in tab 4
+node server1.js # run in tab 1, this is port 4000
+node server2.js # run in tab 2, this is port 5000
+node server3.js # run in tab 3, this is port 6000
+node gateway.js # run in tab 4, this is port 7000
 ```
+
+Open http://localhost:7000
 
 # Why would you want to do this?
 
-1. If you want to implement authorization in the gateway level instead of the service layer.
+1. If you want to implement authorization / validation / something blocking in the gateway level instead of the service layer.
 2. If you don't care about federation, @apollo/engine.
 3. If you want to use [graphql-middleware](https://github.com/prisma-labs/graphql-middleware).
 
